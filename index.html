@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+    <link rel="icon" type="image/png" href="images/logo2.png">
+    <title>SM</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+<div class="uk-navbar-left">
+    <a href="" class="uk-navbar-item uk-logo uk-light">Satanu Maity</a>
+</div>
+<div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-light">
+        <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About Me</a></li>
+        <li><a class="uk-button-text uk-text-capitalize" href="#publications" uk-scroll>Publications</a></li>
+        <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+    </ul>
+</div>
+</nav>
+<!-- Navigation Bar Ends  -->
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">Satanu Maity</a>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Change This -->
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About Me</a></li>
+            <li class="uk-active"><a href="#publications" uk-scroll>Publications</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li> <!--- change to ur email-->
+        </ul>
+    </div>
+</div>
+
+<!-- Navigation Bar Mobile Ends -->
+<!-- Home -->
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <!-- <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Hi! I'm Satanu Maity and wellcome to my portfolio.</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a> -->
+    <div class="uk-container">
+        <div class="uk-grid-large uk-flex-middle" uk-grid>
+            <!-- Left Content -->
+            <div class="uk-width-1-2@m">
+                <h1 class="uk-light uk-text-left">Hi, I'm Satanu Maity, a Ph.D. scholar seeking Post-Doctoral opportunities.</h1>
+                <a href="files/Satanu_Maity_CV.pdf"
+                   class="uk-button uk-button-secondary uk-margin-medium-top"
+                   target="_blank"
+                   download>
+                    Download My CV
+                </a>
+            </div>
+            <!-- Right Image -->
+            <div class="uk-width-1-2@m uk-text-center">
+                <img src="images/satanu.jpeg"
+                     alt="Satanu Maity"
+                     class="profile-img">
+            </div>
+        </div>
+    </div>
+    <br>
+</section>
+
+<!-- Home Ends -->
+<br>
+
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- About Me -->
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+<!-- Change here to ur paragraph -->
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right" style="color: #e5e5e5;">
+I am currently pursuing my Ph.D. at the <a href="https://www.iiitg.ac.in/" target="_blank" class="uk-link-text" style="color: #00ffff;">Indian Institute of Information Technology Guwahati</a> under the supervision of <a href="https://www.iiitg.ac.in/faculty/manojit-ghose" target="_blank" class="uk-link-text" style="color: #00ffff;">Dr. Manojit Ghose</a>, and I have recently submitted my doctoral thesis. My research focuses on developing approaches to enhance the computational performance of a broad range of applications in hybrid <a href="https://en.wikipedia.org/wiki/In-memory_processing" target="_blank" class="uk-link-text" style="color: #00ffff;">Near-Memory Processing (NMP)</a> architectures, with particular emphasis on computation offloading and memory-system optimization. <br><br>
+I am currently seeking Postdoctoral research opportunities in the areas of computer architecture, memory systems, heterogeneous computing, and high-performance computing.<br><br>
+Prior to my Ph.D., I worked as a Project Assistant under <a href="https://www.iitbhilai.ac.in/index.php?pid=dhiman" target="_blank" class="uk-link-text" style="color: #00ffff;">Dr. Dhiman Saha</a> in the Department of Electrical Engineering and Computer Science at Indian Institute of Technology Bhilai from February 2021 to August 2021. Earlier, from August 2019 to February 2021, I served as a faculty member in the Department of Computer Applications at Bengal School of Technology and Management, Hooghly, West Bengal.</p>
+<a href="satanu01@gmail.com" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="mail"></a> &nbsp;<a href="https://scholar.google.com/citations?user=BoeeBc4AAAAJ&hl=en" class="uk-light uk-button-text" uk-icon="world"></a> &nbsp;<a href="https://github.com/satanu01" class="uk-button-text uk-light" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/satanu-maity-79a00410b/#" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+<!-- About Me Ends -->
+ <br>
+</section>
+
+<br>
+
+<!-- Publications Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<section id="publications" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h3 class="uk-margin-xlarge-left uk-light">Selected Publications</h3>
+    <p class="uk-margin-xlarge-left uk-light">Research papers published in journals and conferences.</p>
+
+    <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+        <!-- Paper 1 -->
+        <div class="uk-card uk-card-secondary uk-card-body uk-margin">
+            <h4 class="uk-light">SAGE: A Compiler-assisted Reinforcement Learning-based Offloading Approach under Near-memory Processing Paradigm.</h4>
+            <p class="uk-light"><strong>Authors:</strong> Satanu Maity, Manojit Ghose.</p>
+            <p class="uk-light"><strong>ACM Transactions on Architecture and Code Optimization (TACO)</strong>, Volume 23, Issue 1, Pages 1-23.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://doi.org/10.1145/3778361"><span uk-icon="icon: link" style="color: #00ffff;"></span> View Paper </a>
+        </div>
+
+        <!-- Paper 2 -->
+        <div class="uk-card uk-card-secondary uk-card-body uk-margin">
+            <h4 class="uk-light">A Framework for Near Memory Processing With Computation Offloading and Load Balancing.</h4>
+            <p class="uk-light"><strong>Authors:</strong> Satanu Maity, Manojit Ghose and Sudeep Pasricha.</p>
+            <p class="uk-light"><strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</strong>, Volume 44, Number 9, Pages 3381-3394.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://doi.org/10.1109/TCAD.2025.3542361"><span uk-icon="icon: link" style="color: #00ffff;"></span> View Paper </a>
+        </div>
+
+        <!-- Paper 3 -->
+        <div class="uk-card uk-card-secondary uk-card-body uk-margin">
+            <h4 class="uk-light">CoaT: Compiler-Assisted Two-Stage Offloading Approach for Data-Intensive Applications Under NMP Framework.</h4>
+            <p class="uk-light"><strong>Authors:</strong> Satanu Maity, Mayank Goel and Manojit Ghose.</p>
+            <p class="uk-light"><strong>IEEE Transactions on Emerging Topics in Computing (TETC)</strong>, Volume 13, Number 3, Pages 753-767.</p>
+            <a class="uk-button-text uk-text-decoration-none" href="https://doi.org/10.1109/TETC.2024.3495218"><span uk-icon="icon: link" style="color: #00ffff;"></span> View Paper </a>
+        </div>
+    </div>
+    <br>
+</section>
+
+<!-- Publications Section Ends -->
+
+<br>
+
+<!-- Projects Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+<p class="uk-margin-xlarge-left uk-light">Projects that i've been working on</p>
+
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- Change all of this to ur projects -->
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+        <h4>MCPSim</h4>
+        <p>A hybrid Memory-Centric Processing (MCP) simulator built on top of the Ramulator framework, supporting co-simulation between host processors and MCP processing units across both Near-Memory Processing and Near-LLC Processing architectures. The simulator further enables unified application deployment by leveraging compiler-extracted information, eliminating the need for dynamic profiling tools while improving simulation flexibility and efficiency.</p>
+        <a class="uk-button-text uk-text-decoration-none" href="https://github.com/sampriti-rg/MCPSim"><span uk-icon="icon: link" style="color: #00ffff;"></span> Github Link </a>
+        &emsp;
+        <a class="uk-button-text uk-text-decoration-none" href="https://doi.org/10.1016/j.sysarc.2026.103784"><span uk-icon="icon: link" style="color: #00ffff;"></span> View Paper </a>
+    </div>
+
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+        <h4>Cache Profiler</h4>
+        <p>An Intel PIN tool–based cache profiler that models a three-level inclusive cache hierarchy.</p>
+        <a class="uk-button-text uk-text-decoration-none" href="https://github.com/satanu01/CacheProfiler"><span uk-icon="icon: link" style="color: #00ffff;"></span> Github Link </a>
+    </div>
+</div>
+
+<br>
+
+</section>
+<!-- <hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div> -->
+<!-- Projects Section Ends -->
+    
+</body>
+</html>
